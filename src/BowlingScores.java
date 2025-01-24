@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class BowlingScores {
 
     /**
-     * Calclate the score of a game in the form:
+     * Calculate the score of a game in the form:
      * 8/9-44729-xx8-359/7
      *
      * @param frames game date like above
