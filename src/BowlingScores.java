@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class BowlingScores {
 
+    static String[] allFrames = new String[10];
+    static int[] scores = new int[10];
+
     /**
      * Calculate the score of a game in the form:
      * 8/9-44729-xx8-359/7
@@ -19,10 +22,8 @@ public class BowlingScores {
     /**
      * Make a pretty version of:
      * 8/9-44729-xx8-359/7
-     *
-     * @param frames game data like above
      */
-    public static void prettyPrint(String frames) {
+    public static void prettyPrint() {
 
     }
 
@@ -41,7 +42,7 @@ public class BowlingScores {
 
                 int score = processFrames(frames);
                 System.out.println(score + " " + expected + " " + frames);
-                prettyPrint(frames);
+                prettyPrint();
             }
         }
     }
