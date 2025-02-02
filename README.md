@@ -2,6 +2,8 @@
 
 We will use some basic parsing skills to both make the scoring string look pretty, but also determine the score.
 
+[Starting Code in Java](https://github.com/jojowil/Bowling)
+
 ---
 
 ## Game Basics
@@ -37,3 +39,9 @@ For the 10th frame
 - If you score 10 pins with one roll (strike), the 10 pins plus the next two rolls (NOT frames) are added to the previous frame score and place in that frame.
 
 That's it!
+
+## Further Reading
+
+Data validation is an important part of solution. You can read more about how to approach validating the frames with regular expressions in the document below.
+
+[Bowling Regex](https://programmingby.design/algorithms/bowling-regex/)
