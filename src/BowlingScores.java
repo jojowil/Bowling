@@ -16,7 +16,7 @@ public class BowlingScores {
      */
     public static int processFrames(String frames) {
 
-        return 0;
+        return 0; // this will change when we have an actual score.
     }
 
     /**
